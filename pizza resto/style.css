@@ -1,0 +1,54 @@
+p{color: #99AE43;}
+body{background-color: #571A00;}
+
+p{color: #99AE43;}
+body{background-color: #571A00;}
+
+.image-container {
+    display: flex;
+  }
+
+  .image-container img {
+    margin-right: 10px;
+  }
+
+  .form-check-label {
+    color: #99AE43;
+  }
+
+  body {
+    background-color: #571A00;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-link{color:#F41111;}
+
+h4{color: #F41111;}
+
+label{color: #99AE43;}
+
+.card-body {
+  height: 200px;
+}
+
+.card-body{
+  height: auto;
+}
+
+.pin-display-container {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pin-display {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}

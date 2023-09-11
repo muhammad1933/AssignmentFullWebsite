@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Reservation</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./pizza photo/pizza logo 3.png" width="140" height="90">
+        <br>
+        <br>
+        <h1>Reservation</h1>
+        <form id="reservationForm">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Your Email" aria-label="Your Email">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Date" aria-label="Date">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Time" aria-label="Time">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <textarea class="form-control" placeholder="Message" aria-label="Message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">BOOK NOW</button>
+                </div>
+            </div>
+        </form>
+        <div id="successMessage" class="alert alert-success" style="display: none;">
+            Booking was successful! Thank you for your reservation.
+        </div>
+        <br>
+        <br>
+        <a href="pizzaresto.html" class="btn btn-success">BACK HOME PAGE</a>
+        <a href="locateus.html" class="btn btn-success">BACK</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
